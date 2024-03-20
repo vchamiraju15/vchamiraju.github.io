@@ -8,6 +8,9 @@
         .title {
             font-family: Courier New, monospace;
         }
+        .italic {
+            font-style: italic;
+        }
     </style>
 </head>
 <body bgcolor="#CEB888">
@@ -57,7 +60,7 @@
     </center>
     <br>
     <center>
-        <p>Look us up on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+        <p class="italic">Look us up on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
         <a href="mailto:contact@willieandwillyswritingwarehouse.com">Contact Us</a>
         <footer>Last modified: <span id="lastModified"></span></footer>
     </center>
@@ -65,5 +68,22 @@
     <script>
         document.getElementById('lastModified').innerText = new Date(document.lastModified).toLocaleString();
     </script>
+    
+    <p><u>This is an underlined text.</u></p>
+    <p><em>This is an italic text.</em></p>
+    
+    <h3>Books Written by Our Team:</h3>
+    <ol>
+        <li>Adventures in the Enchanted Forest</li>
+        <li>Mysteries of the Forgotten Castle</li>
+        <li>Legends of the Whispering Hills</li>
+    </ol>
+    
+    <h3>Genres We Love:</h3>
+    <ul>
+        <li>Fantasy</li>
+        <li>Mystery</li>
+        <li>Adventure</li>
+    </ul>
 </body>
 </html>
