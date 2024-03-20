@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var lastModifiedDate = document.lastModified;
+            var lastModifiedElement = document.getElementById("lastModified");
+            lastModifiedElement.innerText = "Last modified: " + lastModifiedDate;
+        });
+    </script>
 
 <head>
     <meta charset="UTF-8">
@@ -89,18 +96,10 @@
 
     <center>
         <p>Want to read about some of the best selling authors in history? Click <a href="https://en.wikipedia.org/wiki/List_of_best-selling_fiction_authors" target="_blank">here</a>!</p>
-        <p>Feel free to <a href="mailto:contact@willieandwillyswritingwarehouse.com">contact us</a> via email.</p>
+        <p>Feel free to <a href="mailto:kecardwe@purdue.edu">contact us</a> via email.</p>
     </center>
 
     <p id="lastModified"></p>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var lastModifiedDate = document.lastModified;
-            var lastModifiedElement = document.getElementById("lastModified");
-            lastModifiedElement.innerText = "Last modified: " + lastModifiedDate;
-        });
-    </script>
 </body>
 
 </html>
