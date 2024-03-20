@@ -4,17 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Content</title>
-    <style>
-        .title {
-            font-family: Courier New, monospace;
-        }
-        .italic {
-            font-style: italic;
-        }
-    </style>
 </head>
 <body bgcolor="#CEB888">
-    <h1 class="title"><center>Our Story</center></h1>
+    <h1 style="font-family: Courier New, monospace;"><center>Our Story</center></h1>
     <center>
         <p>In a charming town, nestled amidst rolling hills and whispering forests, two friends, Willie and Willy, embarked on a 
             literary odyssey fueled by their boundless imagination and unwavering determination. Together, they sought to weave 
@@ -37,22 +29,34 @@
         <tr>
             <td>
                 <h3><center>Vaibhavi Chamiraju</center></h3>
-                <p><center><strong>Sophomore - </strong> Integrated Business and Engineering</center></p>
+                <ul>
+                    <li><strong>Sophomore</strong></li>
+                    <li>Integrated Business and Engineering</li>
+                </ul>
                 <center><img src="Images/vaibhavi.jpeg" alt="Vaibhavi" width="200" height="200"></center>
             </td>
             <td>
                 <h3><center>Kyle Cardwell</center></h3>
-                <p><center><strong>Junior - </strong> Integrated Business and Engineering</center></p>
+                <ul>
+                    <li><strong>Junior</strong></li>
+                    <li>Integrated Business and Engineering</li>
+                </ul>
                 <center><img src="Images/kyle.jpeg" alt="Kyle" width="200" height="200"></center>
             </td>
             <td>
                 <h3><center>Alice Dinh</center></h3>
-                <p><center><strong>Junior - </strong> Integrated Business and Engineering</center></p>
+                <ul>
+                    <li><strong>Junior</strong></li>
+                    <li>Integrated Business and Engineering</li>
+                </ul>
                 <center><img src="Images/alice.jpeg" alt="Alice" width="200" height="200"></center>
             </td>
             <td>
                 <h3><center>Colin Barry</center></h3>
-                <p><center><strong>Junior - </strong> Integrated Business and Engineering</center></p>
+                <ul>
+                    <li><strong>Junior</strong></li>
+                    <li>Integrated Business and Engineering</li>
+                </ul>
                 <center><img src="Images/colin.jpeg" alt="Colin" width="200" height="200"></center>
             </td>
         </tr>
@@ -60,30 +64,15 @@
     </center>
     <br>
     <center>
-        <p class="italic">Look us up on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-        <a href="mailto:contact@willieandwillyswritingwarehouse.com">Contact Us</a>
+        <ol>
+            <li>Look us up on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:contact@willieandwillyswritingwarehouse.com">Contact Us</a></li>
+        </ol>
         <footer>Last modified: <span id="lastModified"></span></footer>
     </center>
 
     <script>
         document.getElementById('lastModified').innerText = new Date(document.lastModified).toLocaleString();
     </script>
-
-    <p><u>This is an underlined text.</u></p>
-    <p><em>This is an italic text.</em></p>
-    
-    <h3>Books Written by Our Team:</h3>
-    <ol>
-        <li>Adventures in the Enchanted Forest</li>
-        <li>Mysteries of the Forgotten Castle</li>
-        <li>Legends of the Whispering Hills</li>
-    </ol>
-    
-    <h3>Genres We Love:</h3>
-    <ul>
-        <li>Fantasy</li>
-        <li>Mystery</li>
-        <li>Adventure</li>
-    </ul>
 </body>
 </html>
