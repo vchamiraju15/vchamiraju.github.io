@@ -72,9 +72,14 @@
         <li>Look us up on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
         <li><a href="mailto:contact@willieandwillyswritingwarehouse.com">Contact Us</a></li>
     </ol>
-    <footer>Last modified: <span id="lastModified"></span></footer>
+    <p id="lastModified"></p>
+
     <script>
-        document.getElementById('lastModified').innerText = new Date(document.lastModified).toLocaleString();
+        document.addEventListener("DOMContentLoaded", function () {
+            var lastModifiedDate = document.lastModified;
+            var lastModifiedElement = document.getElementById("lastModified");
+            lastModifiedElement.innerText = "Last modified: " + lastModifiedDate;
+        });
     </script>
 </body>
 </html>
